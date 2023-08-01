@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    background: beige;
+    font-size: 1.5em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#backImage {
+  position: absolute;
+  left: 0px; top: 0px;
+  width: 100vw;
+  height: 100vh;
+} /* #backImage */
+
+h1 {
+  /* background:white; */
+  text-align: right;
+  position: absolute;
+  top:5vh;
+  right: 2vw;
+  /* color: white; */
+  color: #faf6d1;
+  width: 80vw;
+  height: 15vh;
+  text-shadow: 5px 5px 3px #00422d;
+} /* h1 */
+
+#inputCircle {
+  position: absolute;
+  top: 25vh;
+  right: 8vw;
+  width: 25vw;
+  height: 25vw;
+  background: #ebde8f;
+  border-radius: 15vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} /* #inputCircle */
+
+#passwordPrompt {
+  font-size: 1.2em;
+  margin: 0.5vh;
+} /* #passwordPrompt */
+
+#passwordBox {
+  text-align:center;
+  font-size: 2.3vh;
+  border-radius: 20px;
+} /* #passwordBox */
+#linkToSite {
+  display:block;
+  margin: 0.8vh;
+} /* #linkToSite */

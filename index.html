@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../../../srcHTML/blank/functions.js"></script> 
+    <link rel="stylesheet" href="../../../srcHTML/blank/styles.css">
+    <link href="src/stylized.css" rel="stylesheet">
+  </head>
+  <body>
+    <select class="selectBox" id="dummy"><option>empty</option></select>
+    <img src="./src/mountains.webp" id="backImage">
+    <h1>THE MONK DIAMOND DISCOVERY</h1> 
+    <div id="inputCircle">  
+      <p id="passwordPrompt">What's the password?</p>
+      <input id="passwordBox" type="text"/>
+      <a id="linkToSite" href="pages/monkDiamond.html" onclick="return checkPassword();">Enter Site</a>
+    </div>
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("passwordBox");
+      var passwordTyped = password.value;
+      console.log (passwordTyped);
+      if (passwordTyped == "Ernest300") {
+        return true;
+      } else {
+        alert ("incorrect password")
+        return false;
+      } //if passwordTyped
+    } // function checkPassword()
+  </script>
+  </body>
+</html>
